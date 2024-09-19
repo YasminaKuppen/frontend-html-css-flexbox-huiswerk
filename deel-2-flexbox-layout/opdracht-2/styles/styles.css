@@ -1,1 +1,50 @@
-/*Schrijf hier jouw CSS*/
+body {
+
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.col-2 {
+    flex-basis: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 100;
+}
+
+header {
+
+    flex-basis: 15%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main {
+
+    flex-basis: 0;
+    flex-grow: 1.5;
+
+}
+
+article {
+
+    flex-grow: 1.5;
+    justify-content: start;
+    align-items: stretch;
+    align-content: stretch;
+    flex-basis: 0;
+    height: 100%;
+}
+
+footer {
+
+    flex-basis: 15%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+nav {
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
