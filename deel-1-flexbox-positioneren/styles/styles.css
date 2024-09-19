@@ -1,1 +1,95 @@
-/*Schrijf hier jouw CSS*/
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.opdracht2-een {
+    flex-basis: 90%;
+}
+
+.opdracht2-twee {
+    flex-basis: 90%;
+}
+
+.opdracht2-drie {
+    flex-basis: 90%;
+}
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opdracht3-een {
+
+    align-self: flex-start;
+}
+
+.opdracht3-twee {
+
+    align-self: center;
+
+}
+
+.opdracht3-drie {
+    align-self: flex-end;
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
+}
+
+
+.opdracht5container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.opdracht5-een {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.opdracht5-twee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.opdracht5-drie {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+
+/*display: flex;*/
+/*flex-direction: row;*/
+/*justify-content: flex-end;*/
+/*align-items: center;*/
