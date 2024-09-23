@@ -8,12 +8,13 @@ body {
 .article-nav-aside {
     display: flex;
     flex-direction: row;
-    flex-grow: 100;
+    height: 100vh;
+
 }
 
 article {
 
-    flex-basis: 100px;
+    /*flex-basis: 100px;*/
     flex-shrink: 5;
     flex-grow: 6;
 }
@@ -29,6 +30,11 @@ aside {
 
     flex-shrink: 0;
     flex-grow: 2;
+}
+header, footer {
+    height: 10vh;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 

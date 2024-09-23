@@ -1,1 +1,92 @@
-/*Schrijf hier jouw css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+flex-wrap: nowrap;
+    color: white;
+    background-color: black;
+height: 40px;
+
+}
+
+
+body {
+    background-color: #F2F3D9;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+.container    {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 60px;
+
+}
+p {
+
+    height: 350px;
+width: 280px;
+    background-color: #c16e70;
+    align-content: end;
+    flex-shrink: 1;
+
+/*    }*/
+/*.containertwee {*/
+/*    display: flex;*/
+/*    !*flex-direction: column;*!*/
+/*    border: 4px dashed darkmagenta;*/
+/*justify-content: space-between;*/
+/*    !*align-items: center;*!*/
+
+/*}*/
+
+/*.testje {*/
+/*    border: 1px dashed pink;*/
+/*    display: flex;*/
+/*  flex-grow: 0;*/
+/*    align-self: flex-start;*/
+
+/*flex-direction: column;*/
+/*justify-content: flex-start;*/
+/*    align-content: flex-start;*/
+/*    align-items: flex-start;*/
+
+/*}*/}
+.derest {
+    border: 1px solid silver;
+    flex-grow: 0;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: flex-end;
+    align-self: flex-end;
+
+}
+/*.test {*/
+/*    display: flex;*/
+/*    border: 5px dashed orange;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start;*/
+/*    align-content: center;*/
+
+/*}*/
+/*.blok2 {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.blok3 {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*voor de blokken
